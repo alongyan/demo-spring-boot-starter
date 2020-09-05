@@ -9,13 +9,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * 描述：
- *
- * @Author shf
- * @Date 2019/5/7 21:50
- * @Version V1.0
- **/
+
 @Configuration
 @EnableConfigurationProperties({Demo1Properties.class, DemoProperties.class})
 @ConditionalOnProperty(
