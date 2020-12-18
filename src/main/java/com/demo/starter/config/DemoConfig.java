@@ -29,7 +29,7 @@ public class DemoConfig {
     }
     @Bean(name = "demo1")
     public DemoService  demo1Service(){
-        //时所发生的发
+        //时所发生的发9999999999999999999999999999999999999999999999
         return new DemoService(demo1Properties.getSayWhat(), demo1Properties.getToWho());
     }
 }
