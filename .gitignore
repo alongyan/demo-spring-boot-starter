@@ -1,0 +1,23 @@
+## ide
+/.idea/
+**/.idea
+*.iml
+rebel.xml
+
+### IntelliJ IDEA ###
+/*.iml
+/*.ipr
+/*.iws
+/.classpath
+/.factorypath
+/.idea
+/.project
+/.settings
+
+## backend
+/target/
+**/target
+**/logs
+
+## front
+**/*.lock
